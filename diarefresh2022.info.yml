@@ -1,0 +1,5 @@
+name: 'DrupalCamp India Refresh 2022'
+description: 'Demonstrates PHPUnit Data Providers'
+package: 'DIA'
+type: module
+core_version_requirement: ^8.8 || ^9

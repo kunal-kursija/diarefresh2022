@@ -1,0 +1,13 @@
+diarefresh2022.editing:
+  path: '/editing'
+  defaults:
+    _controller: '\Drupal\diarefresh2022\Controller\Editing::content'
+  requirements:
+    _role: 'editor+moderator'
+
+diarefresh2022.moderating:
+  path: '/moderating'
+  defaults:
+    _controller: '\Drupal\diarefresh2022\Controller\Moderating::content'
+  requirements:
+    _role: 'moderator'
