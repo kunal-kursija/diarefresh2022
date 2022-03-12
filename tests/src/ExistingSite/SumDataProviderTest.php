@@ -1,13 +1,13 @@
 <?php
 
-namespace Drupal\tests\diarefresh2022\ExistingSite;
+namespace Drupal\Tests\diarefresh2022\ExistingSite;
 
 use weitzman\DrupalTestTraits\ExistingSiteBase;
 
 class SumDataProviderTest extends ExistingSiteBase {
 
   /**
-   * Test Addition
+   * Test Addition.
    *
    * @param int $int1
    *   Integer 1.

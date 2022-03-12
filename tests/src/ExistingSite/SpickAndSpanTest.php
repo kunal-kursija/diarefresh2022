@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\tests\diarefresh2022\ExistingSite;
+namespace Drupal\Tests\diarefresh2022\ExistingSite;
 
 use weitzman\DrupalTestTraits\Entity\UserCreationTrait;
 use weitzman\DrupalTestTraits\ExistingSiteBase;
@@ -29,7 +29,7 @@ class SpickAndSpanTest extends ExistingSiteBase {
   }
 
   /**
-   * Test User Access.
+   * Test User Access To Our Routes.
    *
    * @param string $role
    *   Role.

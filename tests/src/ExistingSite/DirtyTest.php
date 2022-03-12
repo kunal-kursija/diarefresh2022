@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\tests\diarefresh2022\ExistingSite;
+namespace Drupal\Tests\diarefresh2022\ExistingSite;
 
 use weitzman\DrupalTestTraits\Entity\UserCreationTrait;
 use weitzman\DrupalTestTraits\ExistingSiteBase;
@@ -29,7 +29,7 @@ class DirtyTest extends ExistingSiteBase {
   }
 
   /**
-   * Test Editor Access.
+   * Test Editor's Access To Our Routes.
    *
    * @throws \Drupal\Core\Entity\EntityStorageException
    *   Exception on storage failure.
@@ -48,7 +48,7 @@ class DirtyTest extends ExistingSiteBase {
   }
 
   /**
-   * Test Moderator Access.
+   * Test Moderator's Access To Our Routes.
    *
    * @throws \Drupal\Core\Entity\EntityStorageException
    *   Exception on storage failure.
